@@ -20,7 +20,7 @@ class Script {
                 eyes.style.color = 'black';
                 setTimeout(() => {
                     eyes.style.color = 'gray';
-                }, 200);
+                }, 182);
                 setTimeout(() => {
                     eyeBox.remove();
                 }, (Math.random() * 5000 + 1000));
