@@ -10,9 +10,12 @@ class Script {
         eyeBox.style.position = 'absolute';
         eyeBox.style.top = Math.floor(Math.random() * window.innerHeight) + 'px';
         eyeBox.style.left = Math.floor(Math.random() * window.innerWidth) + 'px';
+        const link = document.createElement('a');
+        link.href = 'webpages/eyes.html';
         const eyes = document.createElement('span');
-        eyes.innerHTML = `. .`;
-        eyeBox.appendChild(eyes);
+        eyes.textContent = `. .`;
+        link.appendChild(eyes);
+        eyeBox.appendChild(link);
         document.body.appendChild(eyeBox);
 
         setTimeout(() => {

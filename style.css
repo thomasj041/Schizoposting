@@ -21,13 +21,13 @@ p {
 
 img {
     position: relative;
+    pointer-events: none;
     z-index: 2;
 }
 
 span {
     position: fixed;
     z-index: 1;
-    pointer-events: none;
     color: gray;
     font-weight: bold;
 }
