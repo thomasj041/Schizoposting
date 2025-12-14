@@ -3,6 +3,9 @@ body {
     margin: 0;
     overflow: hidden;
 }
+main {
+    margin: 8px;
+}
 p {
     color: blue;
 }
@@ -21,7 +24,6 @@ p {
 
 img {
     position: relative;
-    pointer-events: none;
     z-index: 2;
 }
 
