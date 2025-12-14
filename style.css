@@ -17,3 +17,7 @@ p {
     display: flex;
     margin: auto;
 }
+
+.upside-down {
+    transform: scaleY(-1);
+}
