@@ -1,6 +1,7 @@
 body {
     background-color: black;
     margin: 0;
+    overflow: hidden;
 }
 p {
     color: blue;
@@ -16,4 +17,15 @@ p {
 .div-center {
     display: flex;
     margin: auto;
+}
+
+img {
+    position: relative;
+    z-index: 2;
+}
+
+span {
+    position: fixed;
+    z-index: 1;
+    pointer-events: none;
 }
